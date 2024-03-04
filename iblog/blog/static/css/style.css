@@ -1,0 +1,34 @@
+.bg-primary{
+ background:#477091 !important;
+}
+
+.mt20{
+ margin-top:20px;
+}
+
+.container-custom{
+width:90%!important;
+margin:auto;
+}
+
+@media only screen and (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+@media only screen and (max-width: 600px) {
+  /* Add specific styles for smaller screens */
+  /* For example, reduce font size, adjust margins, etc. */
+  body {
+    font-size: 14px;
+  }
+
+  .container-custom .card.item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .container-custom .card.item .img-container img {
+    max-width: 100%;
+  }
+}

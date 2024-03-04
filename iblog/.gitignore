@@ -1,0 +1,3 @@
+.venv/
+Files/iblog/blog/__pycache__/
+Files/iblog/blog/migrations/
